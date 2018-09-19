@@ -35,7 +35,6 @@
     <?php 
       $i=1;
       while($row=$read->fetch_assoc()) { 
-
     ?>
 
 
@@ -54,10 +53,6 @@
   </table>
 
   <a href="create.php">Create</a>
-
-
-
-
 
 
   <?php include 'footer.php';?>
